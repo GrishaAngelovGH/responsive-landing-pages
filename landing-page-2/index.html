@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Landing Page 2 | Tailwind CSS</title>
+	</head>
+
+	<body class="bg-gray-100">
+		<header class="bg-purple-600 text-white p-3 flex justify-around items-center sticky top-0 z-30">
+			<a href="#">Company Logo</a>
+
+			<nav class="w-3/4">
+				<ul class="flex flex-col md:flex-row justify-evenly items-center text-purple-200">
+					<li><a href="#" class="hover:text-white">Home</a></li>
+					<li><a href="#services" class="hover:text-white">Services</a></li>
+					<li><a href="#features" class="hover:text-white">Features</a></li>
+					<li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+					<li><a href="#team" class="hover:text-white">Team</a></li>
+					<li><a href="#blog" class="hover:text-white">Blog</a></li>
+					<li>
+						<a href="#buy"
+							class="inline-block bg-white text-purple-600 pt-1 pb-1 pl-2 pr-2 rounded-full transition duration-200 ease-in hover:scale-105 hover:bg-purple-400 hover:text-white">
+							Buy Now
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="bg-purple-600 text-white p-3 flex flex-col md:flex-row justify-around items-center text-center">
+			<div class="md:w-2/3 lg:w-1/3">
+				<h1 class="text-4xl">Optimize Your Service Business</h1>
+				<p class="p-3">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, enim. Provident at, assumenda molestiae
+					illum corrupti sed nulla vitae, atque sit tenetur deleniti. Earum, accusamus. Ab debitis dolor doloremque
+					deserunt.
+				</p>
+				<a href="#"
+					class="bg-white text-purple-600 pt-1 pb-1 pl-2 pr-2 rounded-full mx-2 hover:bg-purple-400 hover:text-white">
+					Get Started
+				</a>
+				<a href="#"
+					class="bg-white text-purple-600 pt-1 pb-1 pl-2 pr-2 rounded-full mx-2 hover:bg-purple-400 hover:text-white">
+					Watch The Video
+				</a>
+			</div>
+			<div class="md:w-1/3 lg:w-1/2">
+				<img src="./images/hero-1-img.png" class="transition duration-500 ease-in hover:scale-105" />
+			</div>
+		</section>
+		<section id="services" class="m-5 flex flex-col items-center text-center scroll-m-14">
+			<h1 class="text-4xl">Our Services</h1>
+			<p class="mt-5 w-1/2 text-gray-500">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum assumenda cum labore similique
+				vitae earum fuga perspiciatis esse, ipsam soluta enim doloribus laboriosam cumque reprehenderit beatae! Ab,
+				libero impedit!
+			</p>
+
+			<div class="mt-10 flex gap-3 flex-col md:flex-row justify-evenly">
+				<div class="border border-gray-400 rounded p-3 md:w-1/4 flex flex-col items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+						stroke="currentColor" class="size-10">
+						<path stroke-linecap="round" stroke-linejoin="round"
+							d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+					</svg>
+					<p class="font-bold text-gray-600">Digital Design</p>
+					<p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="border border-gray-400 rounded p-3 md:w-1/4 flex flex-col items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+						stroke="currentColor" class="size-10">
+						<path stroke-linecap="round" stroke-linejoin="round"
+							d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+					</svg>
+					<p class="font-bold text-gray-600">Awesome Support</p>
+					<p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="border border-gray-400 rounded p-3 md:w-1/4 flex flex-col items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+						stroke="currentColor" class="size-10">
+						<path stroke-linecap="round" stroke-linejoin="round"
+							d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+					</svg>
+					<p class="font-bold text-gray-600">Easy to customize</p>
+					<p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
+		</section>
+		<section id="features" class="m-5 mr-5 mt-10 mb-10 flex flex-col items-center text-center scroll-m-14">
+			<h1 class="text-4xl">Our Features</h1>
+			<p class="mt-5 w-1/2 text-gray-500">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, eos.
+			</p>
+			<div class="mt-10 flex gap-3 flex-col md:flex-row justify-evenly items-center">
+				<div class="md:w-1/2">
+					<h1 class="text-4xl">Perfect Solution For Small Businesses </h1>
+					<p class="m-5 text-gray-500">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi natus aperiam illum repudiandae
+						perspiciatis explicabo! Dolores exercitationem velit, odio necessitatibus quos eos laudantium facere iure.
+						Blanditiis rem tempora odit itaque.
+					</p>
+					<a href="#" class="bg-blue-700 text-white rounded-md p-3 hover:bg-blue-500">Find out more</a>
+				</div>
+				<div class="md:w-1/3 relative">
+					<img src="./images/features-1.jpg" class="relative z-20 rounded-md" />
+					<img src="./images/dot-img.png" class="hidden md:block absolute bottom-0 left-[-50px] bottom-[-20px] z-10" />
+				</div>
+			</div>
+			<div class="mt-10 flex gap-3 flex-col md:flex-row justify-evenly items-center">
+				<div class="md:w-1/3 relative">
+					<img src="./images/features-2.jpg" class="relative z-20 rounded-md" />
+					<img src="./images/dot-img.png" class="hidden md:block absolute bottom-0 right-[-50px] bottom-[-20px] z-10" />
+				</div>
+				<div class="md:w-1/2">
+					<h1 class="text-4xl">Build community & conversion with our suite of social tool</h1>
+					<p class="m-5 text-gray-500">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi natus aperiam illum repudiandae
+						perspiciatis explicabo! Dolores exercitationem velit, odio necessitatibus quos eos laudantium facere iure.
+						Blanditiis rem tempora odit itaque.
+					</p>
+					<a href="#" class="bg-blue-700 text-white rounded-md p-3 hover:bg-blue-500">Find out more</a>
+				</div>
+			</div>
+		</section>
+		<section
+			class="bg-gradient-to-r from-blue-500 to-purple-500 p-10 flex flex-col justify-center items-center text-white text-center">
+			<h1 class="text-4xl">Build your dream website today </h1>
+			<p class="mt-5 md:w-2/3 lg:w-1/3">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque provident harum voluptatibus consequuntur
+				dolores
+				quis in dolorum odit veritatis ipsum illo saepe excepturi iste pariatur et ab repudiandae, eveniet amet?
+			</p>
+			<a href="#" class="mt-5 bg-white text-purple-600 p-3 rounded-sm hover:bg-purple-600 hover:text-white">
+				Ask for Demonstration
+			</a>
+		</section>
+		<section id="pricing" class="m-5 flex flex-col items-center text-center scroll-m-14">
+			<h1 class="text-4xl">Pricing Plan</h1>
+			<p class="mt-5 w-1/2 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minima?</p>
+			<div class="mt-10 flex gap-3 flex-col md:flex-row justify-evenly w-full">
+				<div class="md:w-1/4 bg-white shadow-lg rounded p-3  flex flex-col items-center">
+					<img src="./images/1.png" class="bg-gray-300 p-1 pl-2 pr-2 rounded-md" />
+					<h1 class="text-2xl m-5 uppercase">Basic</h1>
+					<p><span class="font-thin text-gray-500 mr-2">Onlinespace:</span>1GB</p>
+					<p><span class="font-thin text-gray-500 mr-2">Support:</span>No</p>
+					<p class="mt-5 font-bold">$10.00 / Month</p>
+					<a href="#"
+						class="mt-5 bg-blue-200 text-blue-500 p-2 pl-3 pr-3 rounded-full hover:bg-blue-500 hover:text-white">
+						Buy Now
+					</a>
+				</div>
+				<div class="md:w-1/4 bg-white shadow-lg rounded p-3  flex flex-col items-center">
+					<img src="./images/2.png" class="bg-gray-300 p-1 pl-2 pr-2 rounded-md" />
+					<h1 class="text-2xl m-5 uppercase">Standard</h1>
+					<p><span class="font-thin text-gray-500 mr-2">Onlinespace:</span>2GB</p>
+					<p><span class="font-thin text-gray-500 mr-2">Support:</span>Yes</p>
+					<p class="mt-5 font-bold">$20.00 / Month</p>
+					<a href="#"
+						class="mt-5 bg-blue-200 text-blue-500 p-2 pl-3 pr-3 rounded-full hover:bg-blue-500 hover:text-white">
+						Buy Now
+					</a>
+				</div>
+				<div class="md:w-1/4 bg-white shadow-lg rounded p-3  flex flex-col items-center">
+					<img src="./images/3.png" class="bg-gray-300 p-1 pl-2 pr-2 rounded-md" />
+					<h1 class="text-2xl m-5 uppercase">PREMIUM</h1>
+					<p><span class="font-thin text-gray-500 mr-2">Onlinespace:</span>4GB</p>
+					<p><span class="font-thin text-gray-500 mr-2">Support:</span>Yes</p>
+					<p class="mt-5 font-bold">$40.00 / Month</p>
+					<a href="#"
+						class="mt-5 bg-blue-200 text-blue-500 p-2 pl-3 pr-3 rounded-full hover:bg-blue-500 hover:text-white">
+						Buy Now
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="team" class="m-5 flex flex-col items-center text-center scroll-m-14">
+			<h1 class="text-4xl">Our Team</h1>
+			<p class="mt-5 w-1/2 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minima?</p>
+			<div class="mt-10 flex flex-col md:flex-row justify-evenly">
+				<div class="md:w-1/5 flex flex-col items-center transition duration-500 ease-in hover:scale-105">
+					<img src="./images/1.jpg" class="w-3/4 rounded-md" />
+					<p>Frances Thompson</p>
+					<p class="text-gray-500">Developer</p>
+				</div>
+				<div class="md:w-1/5 flex flex-col items-center transition duration-500 ease-in hover:scale-105">
+					<img src="./images/2.jpg" class="w-3/4 rounded-md" />
+					<p>John Jones</p>
+					<p class="text-gray-500">CEO</p>
+				</div>
+				<div class="md:w-1/5 flex flex-col items-center transition duration-500 ease-in hover:scale-105">
+					<img src="./images/3.jpg" class="w-3/4 rounded-md" />
+					<p>Della Hobbs</p>
+					<p class="text-gray-500">Designer</p>
+				</div>
+				<div class="md:w-1/5 flex flex-col items-center transition duration-500 ease-in hover:scale-105">
+					<img src="./images/4.jpg" class="w-3/4 rounded-md" />
+					<p>Troy Jordon</p>
+					<p class="text-gray-500">Developer</p>
+				</div>
+			</div>
+		</section>
+		<section id="blog" class="m-5 flex flex-col items-center text-center scroll-m-14">
+			<h1 class="text-4xl">Our Blog</h1>
+			<p class="mt-5 w-1/2 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minima?</p>
+			<div class="mt-10 flex gap-3 flex-col md:flex-row justify-evenly">
+				<div class="md:w-1/4 border rounded-md shadow-md">
+					<p class="uppercase text-sm bg-gray-300 text-blue-500 p-2 rounded-t-md">UI & UX Design</p>
+					<a href="#" class="text-gray-500 font-bold inline-block m-5">Step bt step to conduct usability testing</a>
+					<p class="text-gray-500 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellendus!</p>
+					<div class="m-5 flex justify-center items-center">
+						<img src="./images/img-2.jpg" class="w-1/5 rounded-full" />
+						<div class="ms-5">
+							<p>John Yeager</p>
+							<p>Designer, New York</p>
+						</div>
+					</div>
+				</div>
+				<div class="md:w-1/4 border rounded-md shadow-md">
+					<p class="uppercase text-sm bg-gray-300 text-blue-500 p-2 rounded-t-md">CEO</p>
+					<a href="#" class="text-gray-500 font-bold inline-block m-5">Increase conversion rate from ad to landing
+						page</a>
+					<p class="text-gray-500 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellendus!</p>
+					<div class="m-5 flex justify-center items-center">
+						<img src="./images/img-3.jpg" class="w-1/5 rounded-full" />
+						<div class="ms-5">
+							<p>Berneice Harris</p>
+							<p>Designer, New York</p>
+						</div>
+					</div>
+				</div>
+				<div class="md:w-1/4 border rounded-md shadow-md">
+					<p class="uppercase text-sm bg-gray-300 text-blue-500 p-2 rounded-t-md">Developer</p>
+					<a href="#" class="text-gray-500 font-bold inline-block m-5">Why small business should start marketing</a>
+					<p class="text-gray-500 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellendus!</p>
+					<div class="m-5 flex justify-center items-center">
+						<img src="./images/img-1.jpg" class="w-1/5 rounded-full" />
+						<div class="ms-5">
+							<p>Sarah Pettway</p>
+							<p>Designer, New York</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="bg-slate-700 flex gap-3 flex-col md:flex-row p-5">
+			<div class="md:w-1/4">
+				<a href="#" class="text-white">Company Logo</a>
+				<p class="text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, similique.</p>
+			</div>
+			<div class="md:w-3/4 flex justify-evenly">
+				<div>
+					<p class="text-white">Customer</p>
+					<nav>
+						<ul>
+							<li><a href="#" class="text-gray-400">Link 1</a></li>
+							<li><a href="#" class="text-gray-400">Link 2</a></li>
+							<li><a href="#" class="text-gray-400">Link 3</a></li>
+							<li><a href="#" class="text-gray-400">Link 4</a></li>
+							<li><a href="#" class="text-gray-400">Link 5</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div>
+					<p class="text-white">Product</p>
+					<nav>
+						<ul>
+							<li><a href="#" class="text-gray-400">Link 6</a></li>
+							<li><a href="#" class="text-gray-400">Link 7</a></li>
+							<li><a href="#" class="text-gray-400">Link 8</a></li>
+							<li><a href="#" class="text-gray-400">Link 9</a></li>
+							<li><a href="#" class="text-gray-400">Link 10</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div>
+					<p class="text-white">Information</p>
+					<nav>
+						<ul>
+							<li><a href="#" class="text-gray-400">Link 11</a></li>
+							<li><a href="#" class="text-gray-400">Link 12</a></li>
+							<li><a href="#" class="text-gray-400">Link 13</a></li>
+							<li><a href="#" class="text-gray-400">Link 14</a></li>
+							<li><a href="#" class="text-gray-400">Link 15</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div>
+					<p class="text-white">Support</p>
+					<nav>
+						<ul>
+							<li><a href="#" class="text-gray-400">Link 16</a></li>
+							<li><a href="#" class="text-gray-400">Link 17</a></li>
+							<li><a href="#" class="text-gray-400">Link 18</a></li>
+							<li><a href="#" class="text-gray-400">Link 19</a></li>
+							<li><a href="#" class="text-gray-400">Link 20</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
